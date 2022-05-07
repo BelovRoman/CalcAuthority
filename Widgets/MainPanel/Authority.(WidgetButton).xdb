@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetButton>
+	<Name>Authority</Name>
+	<Header>
+		<Prototype href="/Mods/SampleCommon/Button/ButtonRegular.Prototype.(WidgetButton).xdb#xpointer(/WidgetButton)" />
+	</Header>
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_LOW</Align>
+			<Size>150</Size>
+			<Pos>570</Pos>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_LOW</Align>
+			<Pos>25</Pos>
+			<Size>30</Size>
+		</Y>
+	</Placement>
+	<Variants>
+		<Item>
+			<TextFileRef href="Authority.txt" />
+			<Reaction>Authority</Reaction>
+		</Item>
+	</Variants>
+</WidgetButton>

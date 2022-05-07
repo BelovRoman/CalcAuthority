@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetButton>
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_CENTER</Align>
+			<Size>17</Size>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_CENTER</Align>			
+			<Size>22</Size>
+		</Y>
+	</Placement>
+	<IgnoreDblClick>true</IgnoreDblClick>
+	<Visible>true</Visible>
+	<Variants>
+		<Item>
+			<StateNormal>
+				<LayerMain href="Slider/SliderNormal.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+			</StateNormal>
+			<StateDisabled>
+				<LayerMain href="" />
+			</StateDisabled>
+		</Item>
+	</Variants>
+</WidgetButton>

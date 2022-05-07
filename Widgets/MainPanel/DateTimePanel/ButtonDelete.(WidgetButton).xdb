@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetButton>
+	<Name>ButtonDelete</Name>
+	<Priority>5</Priority>
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_HIGH</Align>
+			<HighPos>5</HighPos>
+			<Size>27</Size>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_CENTER</Align>
+			<Pos>0</Pos>
+			<Size>27</Size>
+		</Y>
+	</Placement>
+	<IgnoreDblClick>true</IgnoreDblClick>
+	<Variants>
+		<Item>
+			<LayerHighlight href="../Textures/ButtonHighlighted.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+			<StateNormal>
+				<LayerMain href="../Textures/ButtonDeleteNormal.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+			</StateNormal>
+			<StatePushed>
+				<LayerMain href="../Textures/ButtonDeletePushed.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+			</StatePushed>
+			<PushedOffset x="0" y="0" />
+			<ReactionOnUp>true</ReactionOnUp>
+			<Reaction>Delete</Reaction>
+		</Item>
+	</Variants>
+</WidgetButton>

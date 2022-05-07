@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetPanel>
+	<Name>DateTimePanel</Name>
+	<Priority>7000</Priority>
+	<Children>
+		<Item href="Check.(WidgetButton).xdb#xpointer(/WidgetButton)" />
+		<Item href="ButtonDelete.(WidgetButton).xdb#xpointer(/WidgetButton)" />
+		<Item href="Text.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+	</Children>
+	<BackLayer href="../Textures/Slot.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_BOTH</Align>
+			<Pos>10</Pos>
+			<HighPos>10</HighPos>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_CENTER</Align>
+			<Size>35</Size>
+		</Y>
+	</Placement>
+</WidgetPanel>

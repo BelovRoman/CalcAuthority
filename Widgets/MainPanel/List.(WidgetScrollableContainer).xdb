@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetScrollableContainer>
+	<Name>List</Name>
+	<Priority>0</Priority>
+	<Children>
+		<Item href="DateTimePanel/DateTimePanel.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+	</Children>
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_BOTH</Align>
+			<Pos>0</Pos>
+			<HighPos>900</HighPos>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_BOTH</Align>
+			<Pos>15</Pos>
+			<HighPos>55</HighPos>
+		</Y>
+	</Placement>
+	<PickChildrenOnly>true</PickChildrenOnly>
+	<IgnoreDblClick>false</IgnoreDblClick>
+	<border href="Scroll/Border.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+	<scrollBar href="Scroll/Scroll.(WidgetGlideScrollBar).xdb#xpointer(/WidgetGlideScrollBar)" />
+	<pickObjectsOnly>true</pickObjectsOnly>
+</WidgetScrollableContainer>

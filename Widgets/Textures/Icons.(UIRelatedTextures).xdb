@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<UIRelatedTextures>
+	<Items>
+		<Item><name>BARD</name><textureItem href="/Interface/Ingame/ContextRelatedTextures/PlayerClasses/Bard.(UITextureElement).xdb#xpointer(/UITextureElement)"/></Item>
+		<Item><name>DRUID</name><textureItem href="/Interface/Ingame/ContextRelatedTextures/PlayerClasses/Druid.(UITextureElement).xdb#xpointer(/UITextureElement)"/></Item>
+		<Item><name>ENGINEER</name><textureItem href="/Interface/Ingame/ContextRelatedTextures/PlayerClasses/Engineer.(UISingleTexture).xdb#xpointer(/UITextureElement)"/></Item>
+		<Item><name>MAGE</name><textureItem href="/Interface/Ingame/ContextRelatedTextures/PlayerClasses/Mage.(UITextureElement).xdb#xpointer(/UITextureElement)"/></Item>
+		<Item><name>NECROMANCER</name><textureItem href="/Interface/Ingame/ContextRelatedTextures/PlayerClasses/Necromancer.(UITextureElement).xdb#xpointer(/UITextureElement)"/></Item>
+		<Item><name>PALADIN</name><textureItem href="/Interface/Ingame/ContextRelatedTextures/PlayerClasses/Paladin.(UITextureElement).xdb#xpointer(/UITextureElement)"/></Item>
+		<Item><name>PRIEST</name><textureItem href="/Interface/Ingame/ContextRelatedTextures/PlayerClasses/Priest.(UITextureElement).xdb#xpointer(/UITextureElement)"/></Item>
+		<Item><name>PSIONIC</name><textureItem href="/Interface/Ingame/ContextRelatedTextures/PlayerClasses/Psionic.(UITextureElement).xdb#xpointer(/UITextureElement)"/></Item>
+		<Item><name>STALKER</name><textureItem href="/Interface/Ingame/ContextRelatedTextures/PlayerClasses/Stalker.(UITextureElement).xdb#xpointer(/UITextureElement)"/></Item>
+		<Item><name>WARRIOR</name><textureItem href="/Interface/Ingame/ContextRelatedTextures/PlayerClasses/Warrior.(UITextureElement).xdb#xpointer(/UITextureElement)"/></Item>
+		<Item><name>WARLOCK</name><textureItem href="Warlock.(UISingleTexture).xdb#xpointer(/UISingleTexture)"/></Item>
+
+		<Item><name>ENUM_TabardType_None</name><textureItem href="Tabard/Tabard0.(UISingleTexture).xdb#xpointer(/UISingleTexture)" /></Item>
+		<Item><name>ENUM_TabardType_Common</name><textureItem href="Tabard/Tabard1.(UISingleTexture).xdb#xpointer(/UISingleTexture)" /></Item>
+		<Item><name>ENUM_TabardType_Champion</name><textureItem href="Tabard/Tabard2.(UISingleTexture).xdb#xpointer(/UISingleTexture)" /></Item>
+	</Items>
+</UIRelatedTextures>

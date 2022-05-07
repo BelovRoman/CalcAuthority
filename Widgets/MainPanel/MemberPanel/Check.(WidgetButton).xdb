@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetButton>
+  <Name>Check</Name>
+  <Priority>15</Priority>
+  <Placement>
+    <X>
+      <Align>WIDGET_ALIGN_HIGH</Align>
+      <HighPos>35</HighPos>
+      <Size>25</Size>
+    </X>
+    <Y>
+      <Align>WIDGET_ALIGN_CENTER</Align>
+      <Size>25</Size>
+    </Y>
+  </Placement>
+  <IgnoreDblClick>true</IgnoreDblClick>
+  <Variants>
+    <Item>
+      <LayerHighlight href="../Textures/CheckBoxStone/CheckBoxStoneHighlight.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+      <StateNormal>
+        <LayerMain href="../Textures/CheckBoxStone/CheckBoxStone.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+      </StateNormal>
+      <StatePushed>
+        <LayerMain href="../Textures/CheckBoxStone/CheckBoxStoneChecked.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+      </StatePushed>
+      <ReactionOnUp>true</ReactionOnUp>
+      <Reaction>Check</Reaction>
+    </Item>
+    <Item>
+      <LayerHighlight href="../Textures/CheckBoxStone/CheckBoxStoneHighlight.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+      <StateNormal>
+        <LayerMain href="../Textures/CheckBoxStone/CheckBoxStoneChecked.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+      </StateNormal>
+      <ReactionOnUp>true</ReactionOnUp>
+      <Reaction>DnD</Reaction>
+    </Item>
+  </Variants>
+</WidgetButton>

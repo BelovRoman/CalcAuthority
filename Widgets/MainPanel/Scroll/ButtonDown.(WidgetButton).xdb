@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetButton>
+	<Name />
+	<Priority>10</Priority>
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_CENTER</Align>
+			<Size>20</Size>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_HIGH</Align>			
+			<HighPos>0</HighPos>			
+			<Size>20</Size>
+		</Y>
+	</Placement>
+	<Visible>true</Visible>
+	<IgnoreDblClick>true</IgnoreDblClick>	
+	<Variants>
+		<Item>
+			<LayerHighlight href="ButtonDown/ButtonDownHighlight.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+			<StateNormal>
+				<LayerMain href="ButtonDown/ButtonDownNormal.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />				
+			</StateNormal>
+			<StatePushed>
+				<LayerMain href="ButtonDown/ButtonDownPressed.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+			</StatePushed>
+			<StateDisabled>
+				<LayerMain href="ButtonDown/ButtonDownDisabled.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />				
+			</StateDisabled>
+			<!--<ReactionOnUp>true</ReactionOnUp>-->
+		</Item>
+	</Variants>
+</WidgetButton>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetPanel>
+	<Name>MainPanel</Name>
+	<Priority>7000</Priority>
+	<Children>
+		<Item href="Execute.(WidgetButton).xdb#xpointer(/WidgetButton)" />
+		<Item href="Add.(WidgetButton).xdb#xpointer(/WidgetButton)" />
+		<Item href="List.(WidgetScrollableContainer).xdb#xpointer(/WidgetScrollableContainer)" />
+		<Item href="Table.(WidgetScrollableContainer).xdb#xpointer(/WidgetScrollableContainer)" />
+		<Item href="Header.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+		<Item href="Class.(WidgetButton).xdb#xpointer(/WidgetButton)" />
+		<Item href="Name.(WidgetButton).xdb#xpointer(/WidgetButton)" />
+		<Item href="Tabard.(WidgetButton).xdb#xpointer(/WidgetButton)" />
+		<Item href="Authority.(WidgetButton).xdb#xpointer(/WidgetButton)" />
+		<Item href="AuthorityWithout.(WidgetButton).xdb#xpointer(/WidgetButton)" />
+		<Item href="Loyalty.(WidgetButton).xdb#xpointer(/WidgetButton)" />
+	</Children>
+	<BackLayer href="Textures/MainFrame.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_CENTER</Align>
+			<Pos>0</Pos>
+			<Size>1200</Size>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_CENTER</Align>
+			<Pos>0</Pos>
+			<Size>810</Size>
+		</Y>
+	</Placement>
+	<Visible>false</Visible>
+</WidgetPanel>

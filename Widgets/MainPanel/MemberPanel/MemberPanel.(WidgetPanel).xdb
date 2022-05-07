@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetPanel>
+	<Name>MemberPanel</Name>
+	<Priority>7000</Priority>
+	<Children>
+		<Item href="Name.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+		<Item href="OldClass.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+		<Item href="NewClass.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+		<Item href="OldTabard.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+		<Item href="NewTabard.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+		<Item href="Authority.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+		<Item href="AuthorityWithout.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+		<Item href="Loyalty.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+		<Item href="Comment.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+	</Children>
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_BOTH</Align>
+			<Pos>0</Pos>
+			<HighPos>0</HighPos>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_CENTER</Align>
+			<Size>30</Size>
+		</Y>
+	</Placement>
+</WidgetPanel>
